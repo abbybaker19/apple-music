@@ -1,4 +1,23 @@
-.am {
-    outline-style: solid;
-    outline-color: dimgray;
+.fm {
+    background-color: #d60017;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: white;
+    font-size: 20px;
 }
+
+.input-group {
+    border-radius: 8px;
+    outline-style: 8px solid;
+    outline-color: dimgray;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.input-group:active, .input-group:focus, .input-group:hover {
+    outline-style: solid;
+    outline-color: #d60017;
+}
+
