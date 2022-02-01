@@ -2,12 +2,14 @@
     float: left;
     width: 15%;
     background-color: #f9f9f9;
+    display: table;
 }
 
 .colRight {
     float: right;
     width: 85%;
     background-color:#ffffff;
+    display:table;
 }
 
 .row:after{
