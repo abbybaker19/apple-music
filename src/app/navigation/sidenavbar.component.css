@@ -5,6 +5,8 @@ a.nav-link{
     text-align: left;
     width: 300px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    column-width: 400px;
+    color: #30353d;
 }
 
 a.nav-link.active {
@@ -13,4 +15,8 @@ a.nav-link.active {
     padding: 10px 24px;
     text-align: left;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+div {
+    column-width: 400px;
 }
