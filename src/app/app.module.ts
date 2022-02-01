@@ -6,6 +6,7 @@ import { SignInComponent } from './navigation/signin.component';
 import { CategoryCardComponent } from './browse/category.card.component';
 import { AppComponent } from './app.component';
 import { SideNavBarComponent } from './navigation/sidenavbar.component';
+import { CategoryCarouselComponent } from './browse/category.carousel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SideNavBarComponent } from './navigation/sidenavbar.component';
     SideNavBarComponent,
     FooterComponent,
     SignInComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    CategoryCarouselComponent
   ],
   imports: [
     BrowserModule

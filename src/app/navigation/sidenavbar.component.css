@@ -19,4 +19,15 @@ a.nav-link.active {
 
 div {
     column-width: 400px;
+    margin-bottom: 2000px;
+    margin-left: 15px;
+}
+
+.nav-item:active, .nav-item:hover{
+    border-radius:8px;
+    background-color:#e6e6e7;
+    outline-style: solid;
+    outline-color: #e6e6e7;
+    background:#e6e6e7;
+    
 }
