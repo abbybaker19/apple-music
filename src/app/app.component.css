@@ -1,12 +1,13 @@
 .colLeft {
     float: left;
-    width: 25%;
+    width: 15%;
     background-color: #f9f9f9;
 }
 
 .colRight {
-    float: center;
-    width: 75%;
+    float: right;
+    width: 85%;
+    background-color:#ffffff;
 }
 
 .row:after{
