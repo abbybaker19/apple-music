@@ -26,3 +26,14 @@
     background-position:0px 0px;
     background-repeat:no-repeat;
 }
+.nav-item{
+    background-color:white;
+    border: none;
+    text-align: left;
+    list-style-type: none;
+    align-items: left;
+}
+
+.row{
+    margin-bottom: 25px;
+}
