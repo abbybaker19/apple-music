@@ -7,6 +7,8 @@ import { CategoryCardComponent } from './browse/category.card.component';
 import { AppComponent } from './app.component';
 import { SideNavBarComponent } from './navigation/sidenavbar.component';
 import { CategoryCarouselComponent } from './browse/category.carousel.component';
+import { VerticalCardComponent } from './browse/vertical.card.component';
+import { HorizontalCardComponent } from './browse/horizontal.card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,10 @@ import { CategoryCarouselComponent } from './browse/category.carousel.component'
     FooterComponent,
     SignInComponent,
     CategoryCardComponent,
-    CategoryCarouselComponent
+    CategoryCarouselComponent,
+    VerticalCardComponent,
+    HorizontalCardComponent,
+    
   ],
   imports: [
     BrowserModule
