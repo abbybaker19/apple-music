@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 @Component ({
     selector: "am-category-card",
     templateUrl: "category.card.component.html",
@@ -6,5 +6,9 @@ import { Component } from "@angular/core";
 })
 
 export class CategoryCardComponent {
-    
+    @Input() title: string;
+
+    constructor() {
+        this.title = "Title";
+    }
 }

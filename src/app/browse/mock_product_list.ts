@@ -18,7 +18,7 @@ export const mock_product_list = [
     },
 
     {
-        img:"./assets/saba.webp", 
+        img:"./assets/few good things.webp", 
         title: "Few Good Things",
         description: "Saba"
     },
@@ -30,8 +30,8 @@ export const mock_product_list = [
     },
 
     {
-        img:"./assets/DFTK.webp", 
-        title: "DFTK", 
+        img:"./assets/DTFK.webp", 
+        title: "DTFK", 
         description: "Yung Kayo"
     },
 ];

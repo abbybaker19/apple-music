@@ -3,9 +3,14 @@ used the vertical card component and created 5 new playlist options in the brows
 used the horizontal card component and created 3 new radio station options in the browse section 
 
 started data binding as shown in the first video this week for the new playlists and radio station options
-    had some issues with the images, so going to work on that more before next week, but I didn't have any issues with the text binding
-    when I added the {{img}} into the app component file, it failed to compile, so I took it out for now and just did the text
 
 added a mock product item list and product item model class
 
 used ngFor in app.component.html to create more cards
+used ngFor in app.component.html to create more category cards
+
+GOALS BEFORE NEXT WEEK:
+- edit category card component to be only one card and then input each image
+- add headings into app.component.html instead of having them in the component html files
+- add additional sections to the browse page like I already started to make it look more similiar to the original site
+- styling to make it consistent throughout and more similar to the original site
