@@ -6,27 +6,49 @@
     </div>
 
     <div class="colRight">
-        <div class = "row">
+        <div class="row">
             <am-singin>Loading...</am-singin>
         </div>
 
-        <div class = "row">
-            <div class ="browse">
+        <div class="row">
+            <div class="browse">
                 Browse
                 <hr>
             </div>
         </div>
-        
-        <div class = "row">
+
+        <div class="row">
             <am-category-carousel>Loading...</am-category-carousel>
         </div>
 
-        <div class = "row">
+        <div class="row">
             <am-category-card>Loading...</am-category-card>
-            <am-footer>Loading...</am-footer>
+            
         </div>
 
-        <am-vertical-card>Loading...</am-vertical-card>
-        
+        <div class="container-fluid d-flex">
+            <am-vertical-card img = "./assets/2 chainz.webp" title = "Dope Don't Sell Itself" description = "2 Chainz"> Loading...</am-vertical-card>
+            <am-vertical-card img = "./assets/catch.webp" title = "Catch Me if You Can" description = "Adekunle Gold">Loading...</am-vertical-card>
+            <am-vertical-card img = "./assets/bastille.webp" title = "Give Me The Future" description = "Bastille"> Loading...</am-vertical-card>
+            <am-vertical-card img = "./assets/saba.webp" title = "Few Good Things" description = "Saba">Loading...</am-vertical-card>
+            <am-vertical-card img = "./assets/champ.webp" title = "People's Champ" description = "Upchurch">Loading...</am-vertical-card>
+            <am-vertical-card img = "./assets/DFTK.webp" title = "DFTK" description = "Yung Kayo">Loading...</am-vertical-card>
+        </div>
+
+        <div class="container-fluid d-flex">
+            <am-horizontal-card>Loading...</am-horizontal-card>
+            <am-horizontal-card>Loading...</am-horizontal-card>
+            <am-horizontal-card>Loading...</am-horizontal-card>
+        </div>
+
+        <div class="container-fluid d-flex">
+            <div *ngFor="let product of products">
+                <am-vertical-card class="mx-2" img = {{product.img}} title = {{product.title}} description={{product.description}}>
+                    Loading...
+                </am-vertical-card>
+            </div>
+        </div>
+       
+        <am-footer>Loading...</am-footer>
     </div>
-</div> 
+</div>
