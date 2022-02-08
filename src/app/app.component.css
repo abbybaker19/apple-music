@@ -29,3 +29,11 @@
 .row{
     margin-bottom: 25px;
 }
+
+.header{
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

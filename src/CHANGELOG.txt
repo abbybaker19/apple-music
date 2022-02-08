@@ -14,3 +14,4 @@ GOALS BEFORE NEXT WEEK:
 - add headings into app.component.html instead of having them in the component html files
 - add additional sections to the browse page like I already started to make it look more similiar to the original site
 - styling to make it consistent throughout and more similar to the original site
+- add the "just ask siri" section from the original site
