@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule,Routes } from '@angular/router';
-import { NeilYoungPlaylistComponent } from './browse/neil-young-layout.component';
+import { NeilYoungPlaylistComponent } from './browse/neil-young-layout/neil-young-layout.component';
 import { HomeLayoutComponent } from './browse/home-layout.component';
-import { JoniPlaylistComponent } from './browse/joni-layout.component';
-import { AlistPopPlaylistComponent } from './browse/alist-pop-layout.component';
+import { JoniPlaylistComponent } from './browse/joni-layout/joni-layout.component';
+import { AlistPopPlaylistComponent } from './browse/alist-pop-layout/alist-pop-layout.component';
 import { RBNowPlaylistComponent } from './browse/rb-now-layout.component';
 
 const routes:Routes = [
@@ -14,7 +14,7 @@ const routes:Routes = [
   {path: 'Joni-Mitchell', component: JoniPlaylistComponent},
   {path: 'a-list-pop', component: AlistPopPlaylistComponent},
   {path: 'rb-now', component: RBNowPlaylistComponent},
-  
+
 ];
 
 @NgModule({
