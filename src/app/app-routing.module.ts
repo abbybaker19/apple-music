@@ -5,7 +5,7 @@ import { NeilYoungPlaylistComponent } from './browse/neil-young-layout/neil-youn
 import { HomeLayoutComponent } from './browse/home-layout.component';
 import { JoniPlaylistComponent } from './browse/joni-layout/joni-layout.component';
 import { AlistPopPlaylistComponent } from './browse/alist-pop-layout/alist-pop-layout.component';
-import { RBNowPlaylistComponent } from './browse/rb-now-layout.component';
+import { RBNowPlaylistComponent } from './browse/rb-now-layout/rb-now-layout.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
