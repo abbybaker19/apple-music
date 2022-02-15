@@ -12,6 +12,9 @@ import { HorizontalCardComponent } from './browse/horizontal.card.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NeilYoungPlaylistComponent } from './browse/neil-young-layout.component';
 import { HomeLayoutComponent } from './browse/home-layout.component';
+import { JoniPlaylistComponent } from './browse/joni-layout.component';
+import { AlistPopPlaylistComponent } from './browse/alist-pop-layout.component';
+import { RBNowPlaylistComponent } from './browse/rb-now-layout.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,11 @@ import { HomeLayoutComponent } from './browse/home-layout.component';
     HorizontalCardComponent,
     NeilYoungPlaylistComponent,
     HomeLayoutComponent,
+    JoniPlaylistComponent,
+    AlistPopPlaylistComponent,
+    RBNowPlaylistComponent,
     
+
   ],
   imports: [
     BrowserModule,

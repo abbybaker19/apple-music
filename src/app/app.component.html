@@ -1,26 +1,20 @@
-<div class="row">
-    <div class="colLeft">
-        <am-topnavbar>Loading...</am-topnavbar>
-
-        <fm-sidenavbar>Loading...</fm-sidenavbar>
-    </div>
-
-    <div class="colRight">
-        <div class="row">
-            <am-singin>Loading...</am-singin>
+<div class="container-fluid">
+    <div class="row">
+        <div class="colLeft">
+            <am-topnavbar>Loading...</am-topnavbar>
+            <fm-sidenavbar>Loading...</fm-sidenavbar>
         </div>
 
-        <div class="row">
-            <div class="browse">
-                Browse
-                <hr>
+        <div class="colRight">
+            <div class="row">
+                <am-singin>Loading...</am-singin>
             </div>
+
+            <router-outlet>
+
+            </router-outlet>
+
+            <am-footer>Loading...</am-footer>
         </div>
-
-        <router-outlet>
-
-        </router-outlet>
-       
-        <am-footer>Loading...</am-footer>
     </div>
 </div>

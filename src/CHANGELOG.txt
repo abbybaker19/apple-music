@@ -1,17 +1,9 @@
-used the vertical card component and created 5 new playlist options in the browse section
+added routing to pages for neil young playlist, joni mitchell playlist, a-list pop playlist, browse, default homepage, r&b now
 
-used the horizontal card component and created 3 new radio station options in the browse section 
-
-started data binding as shown in the first video this week for the new playlists and radio station options
-
-added a mock product item list and product item model class
-
-used ngFor in app.component.html to create more cards
-used ngFor in app.component.html to create more category cards
+organized assets files and files in src
 
 GOALS BEFORE NEXT WEEK:
 - edit category card component to be only one card and then input each image
 - add headings into app.component.html instead of having them in the component html files
-- add additional sections to the browse page like I already started to make it look more similiar to the original site
+- edit routed pages
 - styling to make it consistent throughout and more similar to the original site
-- add the "just ask siri" section from the original site
