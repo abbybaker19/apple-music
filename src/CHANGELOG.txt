@@ -5,5 +5,5 @@ organized assets files and files in src
 GOALS BEFORE NEXT WEEK:
 - edit category card component to be only one card and then input each image
 - add headings into app.component.html instead of having them in the component html files
-- edit routed pages
+- edit routed pages (not sure if this needs to be a card or what so i just left it alone for now)
 - styling to make it consistent throughout and more similar to the original site
