@@ -9,6 +9,9 @@ import { SideNavBarComponent } from './navigation/sidenavbar.component';
 import { CategoryCarouselComponent } from './browse/category.carousel.component';
 import { VerticalCardComponent } from './browse/vertical.card.component';
 import { HorizontalCardComponent } from './browse/horizontal.card.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NeilYoungPlaylistComponent } from './browse/neil-young-layout.component';
+import { HomeLayoutComponent } from './browse/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +24,13 @@ import { HorizontalCardComponent } from './browse/horizontal.card.component';
     CategoryCarouselComponent,
     VerticalCardComponent,
     HorizontalCardComponent,
+    NeilYoungPlaylistComponent,
+    HomeLayoutComponent,
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,17 +10,4 @@ import { category_list } from './browse/category_list';
 })
 export class AppComponent {
   title = 'apple-music';
-  products: ProductItemModel [] = [];
-  category_list: any = category_list;
-
-  constructor () {
-    // put some code to fethc data from backend using htp
-
-    for (var product of mock_product_list) {
-      console.log(product);
-      this.products.push(product);
-    }
-
-    this.category_list = category_list;
-  }
 }
