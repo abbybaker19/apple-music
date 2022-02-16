@@ -40,6 +40,27 @@ div {
 .active {
     color: #30353d;
     border-radius: 8px;
+    font-style: normal;
+}
+
+.listen-now {
+    color: #30353d;
+    margin: 8px;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-style: normal;
+}
+
+.browse {
+    color: #30353d;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-style: normal;
+}
+
+.radio {
+    color: #30353d;
+    border-radius: 8px;
     padding: 10px 24px;
     font-style: normal;
 }

@@ -15,6 +15,8 @@ import { HomeLayoutComponent } from './browse/home-layout.component';
 import { JoniPlaylistComponent } from './browse/joni-layout/joni-layout.component';
 import { AlistPopPlaylistComponent } from './browse/alist-pop-layout/alist-pop-layout.component';
 import { RBNowPlaylistComponent } from './browse/rb-now-layout/rb-now-layout.component';
+import { ListenNowComponent } from './browse/listen-now-layout.component';
+import { RadioComponent } from './browse/radio-layout.component';
 
 @NgModule({
   declarations: [
@@ -32,8 +34,9 @@ import { RBNowPlaylistComponent } from './browse/rb-now-layout/rb-now-layout.com
     JoniPlaylistComponent,
     AlistPopPlaylistComponent,
     RBNowPlaylistComponent,
-
-
+    ListenNowComponent,
+    RadioComponent,
+    
   ],
   imports: [
     BrowserModule,
